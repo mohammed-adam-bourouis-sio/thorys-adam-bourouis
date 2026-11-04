@@ -3,21 +3,38 @@
 <head> 
  <meta charset="utf-8"> 
  <meta name="viewport" content="width=device-width, initial-scale=1"> 
- <title>Adam</title> 
+ <title>Adam | Thorys</title> 
  <link rel="stylesheet" href="css/style.css"> 
 </head> 
 <body> 
  <header> 
- <p class="marque">THORYS</p> 
+ <p class="marque">THORYS MY ADVICE</p> 
  <h1>Bienvenue sur notre projet Web</h1> 
- <p>Cette application évoluera tout au long du semestre.</p> 
+ <p>Cette application à pour but de partager mes critique sur l'industrie de la musique.</p> 
  </header> 
- <main> 
- <section> 
- <h2>Premier objectif</h2> 
- <p>Comprendre comment le navigateur, Apache et PHP travaillent ensemble.</p> 
- <a href="diagnostic.php">Vérifier le serveur PHP</a> 
- </section> 
- </main> 
+ <nav aria-label="Navigation principale">
+<ul>
+<li><a href="index.html">Accueil</a></li>
+<li><a href="r&b.html">R&B</a></li>
+<li><a href="pop.html">Pop</a></li>
+<li><a href="rap.html">Rap</a></li>
+</ul>
+</nav>
+ <main>
+<section aria-labelledby="titre-selection">
+<h2 id="titre-selection">Pourquoi ai-je choisi ces styles musicaux ?</h2>
+<article>
+<h3>Premier élément</h3>
+<p>Une information autonome et compréhensible.</p>
+</article>
+</section>
+<section aria-labelledby="titre-accueil">
+	<h2 id="titre-accueil">Mes avis sur 3 style musicaux.</h2>
+	<p>Les styles choisis sont la Pop, le R&B et le Rap. Ce sont celle qui mon le plus marqué.</p>
+	<a href="r&b.html">Mes avis est critique sur le R&B.</a><br>
+	<a href="pop.html">Mes avis est critique sur le Pop.</a><br>
+	<a href="rap.html">Mes avis est critique sur le Rap.</a><br>
+</section>
+</main>
 </body> 
 </html>
